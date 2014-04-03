@@ -15,5 +15,8 @@ public class NetworkAPI extends JavaPlugin {
 	public void onEnable() {
 		System.out.print("Network-API Loaded!");
 	}
-
+	
+	public void onDisable() {
+		System.out.print("Network-API Unloaded!");
+	}
 }
