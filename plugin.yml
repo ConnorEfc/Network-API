@@ -1,0 +1,4 @@
+name: Network-API
+main: me.matthijs110.NetworkAPI.NetworkAPI
+version: 1.0
+authors: [Shawshark, matthijs110]
