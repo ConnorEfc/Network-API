@@ -21,8 +21,8 @@ public class NetworkAPI extends JavaPlugin {
 		System.out.print("Network-API Unloaded!");
 	}
 	
-	public void NetworkPrefix() {
-		@SuppressWarnings("unused")
+	public String NetworkPrefix() {
 		String prefix = ChatColor.DARK_GRAY + "[" + ChatColor.RED + "ServerName" + ChatColor.DARK_GRAY + "]";
+		return prefix;
 	}
 }
