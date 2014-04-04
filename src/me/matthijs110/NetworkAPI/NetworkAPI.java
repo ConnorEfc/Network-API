@@ -1,5 +1,6 @@
 package me.matthijs110.NetworkAPI;
 
+import org.bukkit.ChatColor;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class NetworkAPI extends JavaPlugin {
@@ -18,5 +19,10 @@ public class NetworkAPI extends JavaPlugin {
 	
 	public void onDisable() {
 		System.out.print("Network-API Unloaded!");
+	}
+	
+	public void NetworkPrefix() {
+		@SuppressWarnings("unused")
+		String prefix = ChatColor.DARK_GRAY + "[" + ChatColor.RED + "ServerName" + ChatColor.DARK_GRAY + "]";
 	}
 }
