@@ -11,7 +11,7 @@ public class LoginKickMessages {
 	// » is \u00BB
 	// « is \u00AB
 	
-	String KickPrefix = ChatColor.DARK_GRAY + "\00AB" + "§7Mini§6Game" + "\u00BB" + "\n";
+	String KickPrefix = ChatColor.DARK_GRAY + "\00AB" + "§7Mini§6Game" + ChatColor.DARK_GRAY + "\u00BB" +"\n";
 	
 	public String Maintenance() {
 		String maintenance = KickPrefix + ChatColor.RED + "The server is currently in Maintenance!" + "\n" + "§aPlease check back later!";
